@@ -1,0 +1,109 @@
+
+ .content-3{
+    width: 100%;
+    height: 80vh;
+    background-image: url("/images/hero_iphone16_avail__euwzls69btea_large.jpg")!important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: 9px solid $text-light;
+    border-bottom: 9px solid $text-light;
+    .content-3-item{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 2rem 0;
+
+    .content-3-item-text{
+        @include content;
+        text-align: center;
+        color: $text-light;
+        h2{
+            font-size: 3.5rem;
+        }
+        p{
+            font-size: 1.8rem;
+        }
+        .content-3-item-text-button{
+           #content-3-item-text-button-buy{
+            background-color: transparent;
+            border: 1px solid $blue;
+            &:hover{
+                background-color: $blue;
+            }
+           }
+    }
+    }
+}
+}
+@media (max-width:1024px){
+    .content-3{
+        background-image: url('/images/hero_iphone16pro_avail__fnf0f9x70jiy_mediumtall.jpg')!important;
+        height: 80vh!important;
+
+    }
+    #content-4{
+        background-image: url('/images/hero_iphone16_avail__euwzls69btea_mediumtall.jpg') !important;
+        background-size: 90% cover;
+    }
+}
+@media (max-width: 768px) {
+    .content-3 {
+        background-image: url("/images/hero_iphone16pro_avail__fnf0f9x70jiy_small_2x.jpg")!important;
+        height: 80vh!important;
+        background-size: cover;
+        .content-3-item{
+            justify-content: flex-end;
+            
+            #content-4-item-text{
+                margin-bottom: 30rem !important;
+                h2{
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+    #content-4{
+        background-image: url('/images/hero_iphone16_avail__euwzls69btea_small_2x.jpg') !important;
+        .content-3-item{
+           
+            .content-3-item-text{
+                h2{
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    .content-3{
+        height: 100vh !important;
+        font-size: 1rem !important;
+        .content-3-item{
+            .content-3-item-text{
+                h2{
+                    font-size: 1.5rem !important;
+                    line-height: 1.5rem !important;
+               
+                }
+            }
+        }
+    }
+    #content-4{
+        background-size: 100% cover;
+        .content-3-item{
+            .content-3-item-text{
+                margin-top: 4rem !important;
+                h2{
+                    font-size: 1.5rem !important;
+                    line-height: 1.5rem !important;
+                    
+                }
+            }
+        }
+    }
+}
+

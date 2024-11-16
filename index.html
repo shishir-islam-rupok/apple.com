@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="https://www.apple.com/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Website</title>
+    <link rel="stylesheet" href="css/style.main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="css/classlist.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,200..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <!-- nav -->
+    <nav>
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="https://www.apple.com/favicon.ico" alt="Apple Logo">
+            </div>
+            <div class="nav-menu">
+                <div class="nav-link">
+                    <a id="nav-logo" href="#">Mac</a>
+                    <a id="ipad-manu" href="#">iPad</a>
+                    <a id="iphone-manu" href="#">iPhone</a>
+                    <a id="watch-manu" href="#">Watch</a>
+                    <a id="airpods-manu" href="#">AirPods</a>
+                    <a id="dropwond-manu" href="#">TV & Home</a>
+
+
+                </div>
+            </div>
+            <div class="nav-icon">
+                <div class="nav-icon-item">
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </div>
+                <div class="nav-icon-item">
+                    <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+                </div>
+                <div id="nav-menu-toggle" class="nav-icon-item">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- dropdown menu ------------------------------------------------------------------------------------------------------------------------------------------>
+
+    <div id="nav-menu" class="dropdown-menu">
+        <div class="nav-link">
+            <a id="nav-mac" href="#">Mac <i id="nav-mac-icon" class="fa-solid fa-xmark"></i></a>
+            <a href="#">iPad</a>
+            <a href="#">iPhone</a>
+            <a href="#">Watch</a>
+            <a href="#">AirPods</a>
+            <a href="#">TV & Home</a>
+        </div>
+    </div>
+    <div id="click" class="d-manu">
+        <div class="drop-link">
+            <a href="">about us</a>
+            <a href="">contact</a>
+            <a href="">or</a>
+        </div>
+
+    </div>
+    <div id="mac" class="mac">
+        <div class="mac-link">
+            <a href="#">MacBook</a>
+            <a href="#">MacBook Air</a>
+            <a href="#">MacBook Pro</a>
+            <a href="#">iPad</a>
+            <a href="#">iPad Air</a>
+            <a href="#">iPad Pro</a>
+        </div>
+    </div>
+    <div id="ipad" class="mac">
+        <div class="ipad-link">
+            <a href="#">MacBook</a>
+            <a href="#">MacBook Air</a>
+            <a href="#">MacBook Pro</a>
+            <a href="#">iPad</a>
+            <a href="#">iPad Air</a>
+            <a href="#">iPad Pro</a>
+        </div>
+    </div>
+    <div id="iphone" class="mac">
+        <div class="iphone-link">
+            <a href="#">MacBook</a>
+            <a href="#">MacBook Air</a>
+            <a href="#">MacBook Pro</a>
+            <a href="#">iPad</a>
+            <a href="#">iPad Air</a>
+            <a href="#">iPad Pro</a>
+        </div>
+    </div>
+
+    <div id="watch" class="mac">
+        <div class="watch-link">
+            <a href="#">MacBook</a>
+            <a href="#">MacBook Air</a>
+            <a href="#">MacBook Pro</a>
+            <a href="#">iPad</a>
+            <a href="#">iPad Air</a>
+            <a href="#">iPad Pro</a>
+        </div>
+    </div>
+    <div id="airpods" class="mac">
+        <div class="airpods-link">
+            <a href="#">MacBook</a>
+            <a href="#">MacBook Air</a>
+            <a href="#">MacBook Pro</a>
+            <a href="#">iPad</a>
+            <a href="#">iPad Air</a>
+            <a href="#">iPad Pro</a>
+        </div>
+    </div>
+    <!-- content -->
+    <main>
+        <div class="content">
+            <div class="text-box">
+                <div class="text-box-item">
+                    <h2>Gift Magic.</h2>
+                    <p>Make this holiday magical with gifts.</p>
+                    <a href="#">Shop Gifts</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- content2 -->
+    <!-- <div class="content-3">
+    </div> -->
+    <div class="content-3">
+        <div class="content-3-item">
+            <div class="content-3-item-text">
+                <h2>iPhone 16 Pro</h2>
+                <p>Hello Apple intellgence.</p>
+                <div class="content-3-item-text-button flex">
+                    <a href="#">Learn more</a>
+                    <a id="content-3-item-text-button-buy" href="#">Buy</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- content 4 ------------------------------------------------------------------------------------------------------------------------------------------>
+    <div id="content-4" class="content-3">
+        <div class="content-3-item">
+            <div id="content-4-item-text" class="content-3-item-text">
+                <h2>iPhone 16 Pro</h2>
+                <p>Hello Apple intellgence.</p>
+                <div class="content-3-item-text-button flex">
+                    <a href="#">Learn more</a>
+                    <a id="content-3-item-text-button-buy" href="#">Buy</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid-box">
+        <div id="box-1" class="box">
+            <div class="box-item">
+                <div class="box-text">
+                    <h3>MacBook Pro.</h3>
+                    <p>A work of smart.</p>
+                    <div class="box-button">
+                        <a href="#">Learn more</a>
+                        <a href="#">Buy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="box-2" class="box">
+            <div class="box-item">
+                <h3>Mac mini </h3>
+                <p>Size down power up.</p>
+                <div class="box-button">
+                    <a href="#">Learn more</a>
+                    <a href="#">Buy</a>
+                </div>
+            </div>
+        </div>
+        <div id="box-3" class="box">
+            <div class="box-item">
+                <h3>iMac</h3>
+                <p>Bri<span style="color: red;">l</span><span style="color: orange;">l</span><span
+                        style="color: yellow;">l</span><span style="color: green;">l</span><span
+                        style="color: blue;">l</span><span style="color: purple;">l</span>iant</p>
+                <div class="box-button">
+                    <a href="#">Learn more</a>
+                    <a href="#">Buy</a>
+                </div>
+            </div>
+        </div>
+        <div id="box-4" class="box">
+            <div class="box-item">
+                <img src="/images/promo_logo_apple_watch_series_10__qk5vaa89vnm2_large (2).png" alt="">
+                <p>A work of smart.</p>
+                <div class="box-button">
+                    <a href="#">Learn more</a>
+                    <a href="#">Buy</a>
+                </div>
+            </div>
+        </div>
+        <div id="box-5" class="box">
+            <div class="box-item">
+                <img src="/images/trading.png" alt="">
+                <p>Get $180-$650 credit towards iPhone 16 Pro when you trade in.</p>
+                <div class="box-button">
+                    <a href="#">Get your estimate</a>
+                </div>
+            </div>
+        </div>
+        <div id="box-6" class="box">
+            <div class="box-item">
+                <img src="/images/logo.png" alt="">
+
+                <p>Get up to 3% Daily Cash back with Apple Card.</p>
+                <div class="box-button">
+                    <a href="#">Learn more</a>
+                    <a href="#">Buy</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- slider content ------------------------------------------------------------------------------------------------------------------------------------------>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div id="slide-1" class="swiper-slide"></div>
+            <div id="slide-2" class="swiper-slide"></div>
+            <div id="slide-3" class="swiper-slide"></div>
+            <div id="slide-4" class="swiper-slide"></div>
+        </div>
+
+        <div class="swiper-pagination" style="color: rgb(255, 236, 236); padding: 1rem 0;"></div>
+        <div class="swiper-button-next" style="color: rgb(255, 236, 236); height: 30px; width: 30px;"></div>
+        <div class="swiper-button-prev" style="color: rgb(255, 236, 236); height: 30px; width: 30px;"></div>
+    </div>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+    <!-- If we need scrollbar ------------------------------------------------------------------------------------------------------------------------------------------>
+    <div class="floating-container">
+        <div class="floating">
+            <div class="floating-item">
+                <div class="floating-box" style="background-color: #e0e0e0;">
+                    <img src="/images/417x236.jpg" alt="">
+                </div>
+                <div class="floating-box" style="background-color: #d0d0d0;">
+                    <img src="/images/417x236.jpg" alt="">
+                </div>
+                <div class="floating-box" style="background-color: #c0c0c0;">
+                    <img src="/images/417x236.jpg" alt="">
+                </div>
+                <div class="floating-box" style="background-color: #b0b0b0;">
+                    <img src="/images/417x236.jpg" alt="">
+                </div>
+                <div class="floating-box" style="background-color: #a0a0a0;">
+                    <img src="/images/417x236.jpg" alt="">
+                </div>
+                <div class="floating-box" style="background-color: #909090;">
+                    <img src="/images/417x236.jpg" alt="">
+                </div>
+                <div class="floating-box" style="background-color: #808080;">
+                    <img src="/images/417x236.jpg" alt="">
+                </div>
+                <div class="floating-box" style="background-color: #707070;">
+                    <img src="/images/417x236.jpg" alt="">
+                </div>
+                <div class="floating-box" style="background-color: #606060;">
+                    <img src="/images/417x236.jpg" alt="">
+                </div>
+                <div class="floating-box" style="background-color: #505050;">
+                    <img src="/images/417x236.jpg" alt="">
+                </div>
+                <div class="floating-box" style="background-color: #404040;">
+                    <img src="/images/417x236.jpg" alt="">
+                </div>
+                <div class="floating-box" style="background-color: #303030;">
+                    <img src="/images/417x236.jpg" alt="">
+                </div>
+                <div class="floating-box" style="background-color: #202020;">
+                    <img src="/images/417x236.jpg" alt="">
+                </div>
+                <div class="floating-box" style="background-color: #101010;">
+                    <img src="/images/417x236.jpg" alt="">
+                </div>
+                <div class="floating-box" style="background-color: #000000;">
+                    <img src="/images/417x236.jpg" alt="">
+                </div>
+                <div class="floating-box" style="background-color: #0a0a0a;">
+                    <img src="/images/417x236.jpg" alt="">
+                </div>
+                <div class="floating-box" style="background-color: #1a1a1a;">
+
+                </div>
+                <div class="floating-box" style="background-color: #2a2a2a;">
+                    <img src="/images/417x236.jpg" alt="">
+                </div>
+                <div class="floating-box" style="background-color: #6a6a6a;">
+                    <img src="/images/417x236.jpg" alt="">
+                </div>
+                <div class="floating-box" style="background-color: #7a7a7a;">
+                    <img src="/images/417x236.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="round-button">
+            <button id="play-pause-button" class="play-pause-button" aria-label="Play/Pause">
+                <img id="play-pause-icon" src="/images/pause.png" alt="Play Icon" />
+            </button>
+        </div>
+    </div>
+
+    <div class="text-container">
+        <div class="text-container-item">
+            <p>1. Hearing Aid and Hearing Test: The Hearing Aid feature has received FDA authorization. The Hearing Test
+                and Hearing Aid features are supported on AirPods Pro 2 with the latest firmware paired with a
+                compatible iPhone or iPad with iOS 18 or iPadOS 18 and later and are intended for people 18 years old or
+                older. The Hearing Aid feature is also supported on a compatible Mac with macOS Sequoia and later. It is
+                intended for people with perceived mild to moderate hearing loss.
+
+
+            <p> Hearing Protection: The Hearing Protection feature works with AirPods Pro 2 with the latest firmware
+                when paired with a compatible iPhone, iPad, or Mac with iOS 18, iPadOS 18, or macOS Sequoia and later.
+                Feature is only available in the U.S. and Canada. See <a href="">support.apple.com/120850v</a> for total
+                attenuation and more information. The Hearing Protection feature is not suitable for protection against
+                extremely loud impulse sounds, such as gunfire, fireworks, or jackhammers, or against sustained sounds
+                louder than 110 dBA.
+                2. Trade‑in values will vary based on the condition, year, and configuration of your eligible trade‑in
+                device. Not all devices are eligible for credit. You must be at least the age of majority to be eligible
+                to trade in for credit or for an Apple Gift Card. Trade‑in value may be applied toward qualifying new
+                device purchase, or added to an Apple Gift Card. Actual value awarded is based on receipt of a
+                qualifying device matching the description provided when estimate was made. Sales tax may be assessed on
+                full value of a new device purchase. In‑store trade‑in requires
+            <p>presentation of a valid photo ID (local law may require saving this information). Offer may not be
+                available in all stores, and may vary between in‑store and online trade‑in. Some stores may have
+                additional requirements. Apple or its trade‑in partners reserve the right to refuse, cancel, or limit
+                quantity of any trade‑in transaction for any reason. More details are available from Apple’s trade-in
+                partner for trade‑in and recycling of eligible devices. Restrictions and limitations may apply.
+                To access and use all Apple Card features and products available only to Apple Card users, you must add
+                Apple Card to Wallet on an iPhone or iPad that supports and has the latest version of iOS or iPadOS.
+                Apple Card is subject to credit approval, available only for qualifying applicants in the United States,
+                and issued by Goldman Sachs Bank USA, Salt Lake City Branch.
+                If you reside in the U.S. territories, please call Goldman Sachs at 877-255-5923 with questions about
+                Apple Card.
+                Learn more about how Apple Card applications are evaluated at <a
+                    href="#">support.apple.com/kb/HT209218</a>.</p>
+            <p>Apple Intelligence is available in beta on all iPhone 16 models, iPhone 15 Pro, iPhone 15 Pro Max, iPad
+                mini (A17 Pro), and iPad and Mac models with M1 and later, with Siri and device language set to U.S.
+                English, as part of an iOS 18, iPadOS 18, and macOS Sequoia update. English (Australia, Canada, Ireland,
+                New Zealand, South Africa, UK) language support available this December. Some features, additional
+                platforms, and support for additional languages, like Chinese, English (India, Singapore), French,
+                German, Italian, Japanese, Korean, Portuguese, Spanish, Vietnamese, and others, will be coming over the
+                course of the next year.</p>
+
+            <p> A subscription is required for Apple Arcade, Apple Fitness+, Apple Music, and Apple TV+.
+                Features are subject to change. Some features, applications, and services may not be available in all
+                regions or all languages.</p>
+        </div>
+    </div>
+
+    <!-- footer ------------------------------------------------------------------------------------------------------------------------------------------>
+    <footer>
+        <div class="footer-container">
+            <div class="item">
+                <div id="services" class="heading">
+                    <h3>Services</h3>
+                    <i class="fas fa-arrow-down" style="font-size: 24px;"></i>
+                </div>
+                <ul id="services-ul">
+                    <li><a href="#">Mac</a></li>
+                    <li><a href="#">iPad</a></li>
+                    <li><a href="#">iPhone</a></li>
+                    <li><a href="#">Watch</a></li>
+                    <li><a href="#">AirPods</a></li>
+                    <li><a href="#">TV & Home</a></li>
+                </ul>
+            </div>
+            <div class="item">
+                <div id="apple-store" class="heading">
+                    <h3>Apple Store</h3>
+                    <i class="fas fa-arrow-down" style="font-size: 24px;"></i>
+                </div>
+                <ul id="apple-store-ul">
+                    <li><a href="#">Mac</a></li>
+                    <li><a href="#">iPad</a></li>
+                    <li><a href="#">iPhone</a></li>
+                    <li><a href="#">Watch</a></li>
+                    <li><a href="#">AirPods</a></li>
+                    <li><a href="#">TV & Home</a></li>
+                </ul>
+            </div>
+            <div class="item">
+                <div id="support" class="heading">
+                    <h3>Support</h3>
+                    <i class="fas fa-arrow-down" style="font-size: 24px;"></i>
+                </div>
+                <ul id="support-ul">
+                    <li><a href="#">Mac</a></li>
+                    <li><a href="#">iPad</a></li>
+                    <li><a href="#">iPhone</a></li>
+                </ul>
+            </div>
+            <div class="item">
+                <div id="for-business" class="heading">
+                    <h3>For Business</h3>
+                    <i class="fas fa-arrow-down" style="font-size: 24px;"></i>
+                </div>
+                <ul id="for-business-ul">
+                    <li><a href="#">Mac</a></li>
+                    <li><a href="#">iPad</a></li>
+                    <li><a href="#">iPhone</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="footer-bottom">
+        <div class="footer-bottom-item">
+            <p>More ways to shop: <a href="">Find an Apple Store </a> or <a href="">other retailer</a> near you. Or call
+                1-800-MY-APPLE.</p>
+            <ul>
+                <li><a href="#">Copyright © 2024 Apple Inc. All rights reserved.</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Sales and Refunds</a></li>
+                <li><a href="#">Legal</a></li>
+                <li><a href="#">Site Map</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="js/insex.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 0,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            autoplay: {
+                delay: 3000, // Set a fast delay for the autoplay
+                disableOnInteraction: false, // Allow autoplay to continue after user interactions
+            },
+            effect: 'slide', // Use slide effect for smooth transitions
+            speed: 700, // Set the speed of transition
+            loop: true, // Enable looping of slides
+            navigation: { // Add navigation buttons
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+        // var swiper = new Swiper(".mySwiper", {
+        //   spaceBetween: 30,
+        //   pagination: {
+        //     el: ".swiper-pagination",
+        //     clickable: true,
+        //   },
+        // });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('#nav-menu-toggle').click(function () {
+                $('#nav-menu').slideToggle();
+            });
+            $('#nav-mac-icon').click(function () {
+                $('#nav-menu').slideUp();
+            });
+            $(document).click(function (event) {
+                if (!$(event.target).closest('#nav-menu-toggle, #nav-menu').length) {
+                    $('#nav-menu').slideUp();
+                }
+            });
+        });
+
+        $(window).on('load', function () {
+            let currentIndex = 0;
+            const images = [
+                "/image/hero_holiday_2024__bbs03706zple_large.jpg"
+            ];
+
+            function changeBackgroundImage() {
+                const content3 = $('.content');
+                content3.fadeOut(500, function () { // Fade out before changing the image
+                    currentIndex = (currentIndex + 1) % images.length; // Increment index
+                    content3.css('background-image', `url("${images[currentIndex]}")`);
+                    content3.fadeIn(500); // Fade in after changing the image
+                });
+            }
+
+            changeBackgroundImage(); // Call once to set the initial imag
+            // Change image every 5 seconds
+        });
+        $(document).ready(function () {
+            // Function to reset colors and slide up all menus
+            function resetMenu() {
+                $('#nav-logo, #ipad-manu, #iphone-manu, #watch-manu, #airpods-manu').css('color', 'black');
+                $('#mac, #ipad, #iphone, #watch, #airpods').slideUp(200);
+            }
+
+            $('#nav-logo').on('click', function (e) {
+                e.preventDefault(); // Prevent default anchor behavior
+                resetMenu();
+                $(this).css('color', 'red');
+                $('#mac').slideToggle(200);
+            });
+
+            $('#ipad-manu').on('click', function (e) {
+                e.preventDefault(); // Prevent default anchor behavior
+                resetMenu();
+                $(this).css('color', 'red');
+                $('#ipad').slideToggle(200);
+            });
+
+            $('#iphone-manu').on('click', function (e) {
+                e.preventDefault(); // Prevent default anchor behavior
+                resetMenu();
+                $(this).css('color', 'red');
+                $('#iphone').slideToggle(200);
+            });
+
+            $('#watch-manu').on('click', function (e) {
+                e.preventDefault(); // Prevent default anchor behavior
+                resetMenu();
+                $(this).css('color', 'red');
+                $('#watch').slideToggle(200);
+            });
+
+            $('#airpods-manu').on('click', function (e) {
+                e.preventDefault(); // Prevent default anchor behavior
+                resetMenu();
+                $(this).css('color', 'red');
+                $('#airpods').slideToggle(200);
+            });
+
+            // Click event on body to reset all menus and colors
+            $('body').on('click', function (e) {
+                if (!$(e.target).closest('.nav-menu, #nav-menu-toggle').length) {
+                    resetMenu();
+                }
+            });
+        });
+
+
+        $('#about-link').on('click', function () {
+            $('#about-modal').load('about.html', function () {
+                $(this).modal('show');
+            });
+        });
+        $('#play-pause-button').on('click', function () {
+            var currentState = $(".floating-item").css("animation-play-state");
+            $(".floating-item").css("animation-play-state", currentState === "running" ? "paused" : "running");
+        });
+        $('#play-pause-button').on('click', function () {
+            var currentState = $(".floating-item").css("animation-play-state");
+            $("#play-pause-icon").attr('src', currentState === "running" ? "/images/pause.png" : "/images/play.png");
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('#services').on('click', function () {
+                $('#services-ul').stop(true, true).slideToggle(300);
+                $(this).find('i').css('transform', function () {
+                    return $(this).css('transform') === 'none' ? 'rotate(180deg)' : 'none';
+                });
+            });
+            $('#apple-store').on('click', function () {
+                $('#apple-store-ul').stop(true, true).slideToggle(300);
+                $(this).find('i').css('transform', function () {
+                    return $(this).css('transform') === 'none' ? 'rotate(180deg)' : 'none';
+                });
+            });
+            $('#support').on('click', function () {
+                $('#support-ul').stop(true, true).slideToggle(300);
+                $(this).find('i').css('transform', function () {
+                    return $(this).css('transform') === 'none' ? 'rotate(180deg)' : 'none';
+                });
+            });
+            $('#for-business').on('click', function () {
+                $('#for-business-ul').stop(true, true).slideToggle(300);
+                $(this).find('i').css('transform', function () {
+                    return $(this).css('transform') === 'none' ? 'rotate(180deg)' : 'none';
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>
